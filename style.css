@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+:root {
+    main-color: #030637;
+    c1-color: #3C0753;
+    c2-color: #720455;
+    c3-color: #910A67;
+}
+
+
+
+
 * {
     background-color: black;
     color: white;
@@ -12,35 +22,42 @@
     display: flex;
     justify-content: right;
     padding: 10px;
-    text-decoration-line: none;
-    background-color: #910A67;
+    /* text-decoration-line: none; */
+    /* background-color: #910A67; */
     border-radius: 15px;
-    height: 30px;
+    height: 30px; 
 }
 
-.navbar>ul,li ,a {
+.navbar>ul, li, a {
     display: inline;
     margin: 10px 10px 10px 10px;
     cursor: pointer;
-    background-color: #910A67;
-    color: #000;
-}
-
-ul ,li,a:hover{
+    /* background-color: #910A67; */
     color: white;
+    text-decoration-line: none;
 }
 
+ul, li, a:hover {
+    color: #c294d6;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    color: #910A67;
+}
 /* navbar-end */
 
 /* main-page start */
 .main {
-     /* border: #3C0753 solid;  */
+    /* border: #3C0753 solid;  */
     margin: 10%;
 }
 
 .main>img {
     border-radius: 90rem;
-    height: 120px;
+    height: 100px;
+    width: 120px;
 }
 
 p {
@@ -54,10 +71,11 @@ button {
     background-color: white;
     border-radius: 20px;
 }
- 
-button:hover{
-background-color: #720455;
-color: white;
-border-color: #910A67;
+
+button:hover {
+    background-color: #720455;
+    color: white;
+    border-color: #910A67;
 }
+
 /* main-page End */
