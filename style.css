@@ -11,7 +11,7 @@
 
 
 * {
-    background-color: black;
+    background-color: #030637;
     color: white;
     list-style-type: none;
     font-family: "Roboto", sans-serif;
@@ -25,7 +25,7 @@
     /* text-decoration-line: none; */
     /* background-color: #910A67; */
     border-radius: 15px;
-    height: 30px; 
+    height: 30px;
 }
 
 .navbar>ul, li, a {
@@ -41,11 +41,12 @@ ul, li, a:hover {
     color: #c294d6;
 }
 
-h3{
+h3 {
     display: flex;
     justify-content: center;
     color: #910A67;
 }
+
 /* navbar-end */
 
 /* main-page start */
@@ -60,9 +61,28 @@ h3{
     width: 120px;
 }
 
-p {
+.main > p {
     color: #797373;
+    overflow: hidden;
+    border-right: .15em solid rgb(239, 211, 211);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .10em;
+    animation:
+        typing 2.5s steps(30, end),
+        blink-caret .5s step-end infinite;
 }
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
 
 button {
     margin-top: 20px;
@@ -79,3 +99,29 @@ button:hover {
 }
 
 /* main-page End */
+
+/* About-start */
+.About-main .About-title>h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #720455;
+    margin: 80px;
+    border-radius: 12px;
+}
+
+.About-body ,img{
+    display: flex;
+    margin: 40px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: black;
+}
+
+.About-body > p{
+    color: #c294d6;
+    font-size: 18px;
+    margin: 100px;
+    padding: 60px;
+}
+
+/* About-End */
