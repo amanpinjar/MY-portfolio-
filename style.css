@@ -1,5 +1,8 @@
 *{
-    background: linear-gradient(217deg, rgba(74, 135, 196, 0.8), rgba(28, 137, 215, 0) 70.71%),
+    /* background: linear-gradient(217deg, rgba(74, 135, 196, 0.8), rgba(28, 137, 215, 0) 70.71%),
             linear-gradient(127deg, rgba(60, 85, 177, 0.8), rgba(15, 44, 46, 0) 70.71%),
-            linear-gradient(336deg, rgba(17, 17, 165, 0.8), rgba(18, 18, 231, 0) 70.71%);
+            linear-gradient(336deg, rgba(17, 17, 165, 0.8), rgba(18, 18, 231, 0) 70.71%); */
+background-color: black;
+color: white;
+
 }
